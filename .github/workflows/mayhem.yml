@@ -59,7 +59,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_dte
+          - mayhem/Mayhemfile_ascii_strcmp_icase
 
     steps:
       - uses: actions/checkout@v3
