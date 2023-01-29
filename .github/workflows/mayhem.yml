@@ -8,6 +8,8 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
+permissions: write-all
+
 jobs:
   build:
     name: '${{ matrix.os }} shared=${{ matrix.shared }} ${{ matrix.build_type }}'
