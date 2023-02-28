@@ -1,0 +1,5 @@
+project: dte
+target: dte
+
+cmds:
+  - cmd: /dte -s @@

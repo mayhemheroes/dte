@@ -1,0 +1,5 @@
+project: dte
+target: ascii-strcmp-icase
+
+cmds:
+  - cmd: /fuzz_ascii_strcmp_icase
